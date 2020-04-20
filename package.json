@@ -1,0 +1,36 @@
+{
+  "name": "neuralnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "anymatch": "^3.1.1",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.1",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "is-installed-globally": "^0.1.0",
+    "is-path-inside": "^1.0.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "npm-run-path": "^2.0.2",
+    "passport-local": "^1.0.0",
+    "passport": "^0.4.1",
+    "path-key": "^2.0.1",
+    "picomatch": "^2.2.2",
+    "pify": "^3.0.0",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
